@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.Button {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 70vh; /* Set height to 100% of viewport height */
+  }
+  
+  /* Optional: Add styles for the button */
+  .Button button {
+    background: orangered;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+  
+  }
+  
+  /* Optional: Add hover effect for the button */
+  .Button button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+
+  }
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+  .Ats {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some space below the header */
+    font-family: 'Open Sans', sans-serif;
+    color: black; /* Set desired font color */
+}
+
+
+  
